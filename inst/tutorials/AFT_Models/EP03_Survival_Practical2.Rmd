@@ -14,6 +14,7 @@ data("lung", package = "survival")
 lung$sex <- factor(lung$sex, labels = c("male", "female"))
 lung <- with(lung, lung[complete.cases(time, status, sex, age, ph.karno), ])
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 

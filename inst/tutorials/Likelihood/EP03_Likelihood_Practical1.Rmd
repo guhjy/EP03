@@ -10,6 +10,7 @@ runtime: shiny_prerendered
 library("learnr")
 data("pbc2.id", package = "JM")
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 

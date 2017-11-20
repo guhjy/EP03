@@ -13,6 +13,7 @@ library("lattice")
 library("splines")
 data("aids.id", package = "JM")
 knitr::opts_chunk$set(echo = FALSE)
+
 ```
 
 
